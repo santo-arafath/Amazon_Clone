@@ -1,0 +1,72 @@
+
+    * { 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Sans-serif;
+    } 
+
+    html{
+        height: 100%;
+        width: 100%;
+        
+    }
+    body{
+        min-height: 100%;
+        width: 100%;
+        
+        /* background-color: rebeccapurple; */
+    }
+
+    .navigation{
+        height: 70px;
+        width: 100%;
+        background-color: #131921;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        padding: 19px 30px;
+    }
+
+    .logo img{
+        width: 100px;
+        margin-top: 7px;
+        /* background-color: white; */
+    }
+    .Language img{
+        width: 21px;
+    }
+    .search input{
+           height: 40px;
+           width: 950px;
+           padding: 10px 20px;
+           font-weight: 500;
+           font-size: 15px;
+    }
+    
+    .nav2{
+        height: 40px;
+        width: 100%;
+        background-color: #232F3E;
+      
+
+
+        
+    }
+    .nav2 ul{
+        padding: 10px 25px;
+       
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        color: white;
+        list-style: none;
+        font-size: 13px;
+    }
+    .main{
+        height: 80vh;
+        width: 100%;
+        
+        background-color: #FEEECA;
+    }
+
